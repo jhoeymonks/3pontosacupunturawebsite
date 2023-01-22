@@ -13,8 +13,8 @@ Site limpo e objetivo que crie interesse em novos clientes e dê informações c
 
 ## Tarefas :
 
-- [ ] Desenvolver Desgin do Website Utilizando Photoshop 
-- [ ] Desenvolver e publicar HTML do Website
+- [X] Desenvolver Desgin do Website Utilizando Photoshop 
+- [X] Desenvolver e publicar HTML do Website
 - [ ] Desenvolver e publicar CSS do Website
 - [ ] Publicar WebSite no GITHUB pages.
 
