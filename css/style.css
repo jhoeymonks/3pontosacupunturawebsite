@@ -436,8 +436,8 @@ h1, h2, h3, h4, h5,
   padding: 1rem; }
   @media (max-width: 991.98px) {
     .site-navbar {
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
       padding-left: 0;
       padding-right: 0; } }
   .site-navbar .toggle-button {
@@ -446,11 +446,14 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-logo {
     margin: 0;
     padding: 0;
-    font-size: 1.6rem;
-    text-shadow: rgb(22, 23, 51) 0.1em 0.1em 0.2em }
+    font-size: 1rem;
+    padding-top: 2rem;
+    margin-right: 3rem;
+    text-align: center;
+    text-shadow: rgb(22, 23, 51) 0.1em 0.1em 0.3em }
     
     .site-navbar .site-logo strong {
-      font-weight: 800; 
+      font-weight: 300; 
       text-shadow: rgb(141, 144, 223) 0.1em 0.1em 0.2em  }
 
       
@@ -462,7 +465,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
-        position: relative; } }
+        position: relative } }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
@@ -756,24 +759,76 @@ h1, h2, h3, h4, h5,
 /* Blocks */
 .hero {
   position: relative;
-  background-size: cover; }
+  background-size: cover; 
+  
+}
+
+
+  
   .hero, .hero > .container > .row {
     height: 100vh;
-    min-height: 550px; }
+    min-height: 550px; 
+    
+  }
+  
   .hero .intro {
     position: relative;
     z-index: 4; }
     .hero .intro h1 {
       font-size: 50px;
       font-weight: 700; }
-      @media (max-width: 991.98px) {
+      @media (width: 640) {
         .hero .intro h1 {
-          font-size: 40px; } }
+          font-size: 20px; } }
     .hero .intro strong {
       font-weight: 900; }
   .hero.inner-page, .hero.inner-page > .container > .row {
     height: 40vh !important;
     min-height: 200px; }
+
+@media (max-width: 450px) {
+
+  .hero {
+
+ 
+  background-size: cover;
+  background-position-x: -800px;
+  
+  
+
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  .hero {
+
+ 
+  background-size: cover;
+  background-position-x: -800px;
+  
+  
+
+  }
+
+}
+
+@media (max-width: 1180px) {
+
+  .hero {
+
+ 
+  background-size: cover;
+  background-position-x: -800px;
+  
+  
+
+  }
+
+}
+
+
 
 .custom-breadcrumbs {
   padding-bottom: 40px; }
